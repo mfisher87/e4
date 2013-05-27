@@ -3,7 +3,6 @@
 def isPalindromic(i):
 	if int(str(i)[::-1]) == i:
 		return True
-	else: return False
 
 maxPalindromicProduct = 0
 
