@@ -1,8 +1,7 @@
 #! /usr/bin/env python3.3
 
 def isPalindromic(i):
-	if int(str(i)[::-1]) == i:
-		return True
+	if int(str(i)[::-1]) == i: return True
 
 maxPalindromicProduct = 0
 
